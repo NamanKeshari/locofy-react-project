@@ -17,12 +17,12 @@ const Homepage: FunctionComponent = () => {
           <b className="relative leading-[120%]">Contact</b>
         </div>
         <div className="flex flex-row items-start justify-start text-gray-100">
-          <div className="rounded-81xl bg-white flex flex-row py-4 px-8 items-start justify-start">
+          <button className="rounded-81xl bg-white flex flex-row py-4 px-8 items-start justify-start">
             <b className="relative leading-[120%]">Log In</b>
-          </div>
-          <div className="rounded-81xl bg-slateblue flex flex-row py-4 px-8 items-start justify-start text-whitesmoke">
+          </button>
+          <button className="rounded-81xl bg-slateblue flex flex-row py-4 px-8 items-start justify-start hover:opacity-80 text-whitesmoke">
             <b className="relative leading-[120%]">Sign Up</b>
-          </div>
+          </button>
         </div>
       </div>
       <div className="absolute top-[177px] left-[calc(50%_-_555px)] flex flex-row items-center justify-start text-sm">
